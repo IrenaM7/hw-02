@@ -67,10 +67,13 @@ body {
   color: var(--title-text-color);
 }
 .logo {
-  font-family: raleway, sans-serif;
+  font-family: Raleway, sans-serif;
   line-height: 1.17;
   text-transform: uppercase;
   color: var(--accent-color);
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: 0, 03em;
 }
 .logo .link {
   color: var(--title-text-color);
