@@ -75,7 +75,7 @@ body {
   font-size: 18px;
   letter-spacing: 0, 03em;
 }
-.logo link {
+.logo .link {
   color: var(--title-text-color);
   text-decoration: none;
 }
