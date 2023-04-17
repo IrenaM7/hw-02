@@ -62,14 +62,21 @@ body {
   color: rgba(255, 255, 255, 1);
   background-color: var(--accent-color);
 }
-.address .mail,
-.address .tel {
+/*  site-nav */
+
+.site-nav,
+.site-address,
+.section,
+.img,
+.team {
+  list-style: none;
+}
+
+.site-address .mail,
+.site-address .tel {
   color: var(--title-text-color);
   font-style: normal;
-}
-.address .mail,
-.address .tel:link {
-  text-decoration: none;
+  list-style: none;
 }
 
 .logo {
@@ -91,24 +98,22 @@ body {
 .logo .studio:focus {
   color: var(--title-text-color);
 }
-/* sektion nav */
-ul {
-  list-style: none;
-}
+
 .site-nav .item {
   color: var(--title-text-color);
   font-weight: 500;
   line-height: 1, 5;
   letter-spacing: 0, 02em;
 }
-.site-nav .item:link {
+.site-nav,
+:link {
   text-decoration: none;
 }
 
-.address .mail:hover,
-.address .tel:hover,
-.address .mail:focus,
-.address .tel:focus {
+.site-address .mail:hover,
+.site-address .tel:hover,
+.site-address .mail:focus,
+.site-address .tel:focus {
   color: var(--accent-color);
 }
 .site-nav .item:hover,
