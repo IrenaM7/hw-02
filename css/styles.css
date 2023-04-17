@@ -63,11 +63,7 @@ body {
   background-color: var(--accent-color);
 }
 /*  site-nav */
-.site-nav,
-.site-address,
-.section,
-.img,
-.team {
+.list {
   list-style: none;
 }
 
