@@ -193,18 +193,27 @@ footer {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.02;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: left;
   color: var(--title-text-color);
   vertical-align: top;
 }
+.link-project {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: var(--title-text-color);
+  vertical-align: top;
+}
+
 .desk {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  line-height: 1.28;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: left;
-  vertical-align: top;
   color: var(--primary-text-color);
 }
