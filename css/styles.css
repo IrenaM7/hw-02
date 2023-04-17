@@ -189,17 +189,7 @@ footer {
   color: var(--primary-white-color);
   background-color: var(--accent-ocean-color);
 }
-.project {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: left;
-  color: var(--title-text-color);
-  vertical-align: top;
-}
-.link-project {
+.link .project {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -210,7 +200,7 @@ footer {
   vertical-align: top;
 }
 
-.desk {
+.link .desk {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
