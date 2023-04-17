@@ -36,7 +36,7 @@ Studio #f4f4fd background #2e2f42 */
 body {
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
-  font-family: roboto, sans-serif;
+  font-family: Roboto, sans-serif;
 }
 .button {
   color: var(--title-text-color);
@@ -71,9 +71,12 @@ body {
 .team {
   list-style: none;
 }
+.link {
+  text-decoration: none;
+}
 
-.site-address .mail,
-.site-address .tel {
+.site-address .link,
+.site-address .link {
   color: var(--title-text-color);
   font-style: normal;
   list-style: none;
@@ -88,9 +91,7 @@ body {
   font-size: 18px;
   letter-spacing: 0, 03em;
 }
-.logo:link {
-  text-decoration: none;
-}
+
 .logo .studio {
   color: var(--title-text-color);
 }
@@ -99,28 +100,23 @@ body {
   color: var(--title-text-color);
 }
 
-.site-nav .item {
+.site-nav .link {
   color: var(--title-text-color);
   font-weight: 500;
   line-height: 1, 5;
   letter-spacing: 0, 02em;
 }
-.site-nav,
-:link {
-  text-decoration: none;
-}
-
-.site-address .mail:hover,
-.site-address .tel:hover,
-.site-address .mail:focus,
-.site-address .tel:focus {
+.site-address .link:hover,
+.site-address .link:hover,
+.site-address .link:focus,
+.site-address .link:focus {
   color: var(--accent-color);
 }
-.site-nav .item:hover,
-.site-nav .item:focus {
+.site-nav .link:hover,
+.site-nav .link:focus {
   color: var(--accent-color);
 }
-.site-nav .item.current {
+.site-nav .link.current {
   color: var(--accent-color);
 }
 
