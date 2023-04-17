@@ -63,13 +63,6 @@ body {
   text-decoration: none;
 }
 
-.site-address .link,
-.site-address .link {
-  color: var(--title-text-color);
-  font-style: normal;
-  list-style: none;
-}
-
 .logo {
   font-family: "Raleway", sans-serif;
   line-height: 1.17;
@@ -87,6 +80,10 @@ body {
 .logo .studio:focus {
   color: var(--title-text-color);
 }
+.site-address .link {
+  font-style: normal;
+  color: var(--title-text-color);
+}
 
 .site-nav .link {
   font-size: 16px;
@@ -95,13 +92,13 @@ body {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
-
-.site-address .link:hover,
-.site-address .link:focus {
+.site-nav .link:hover,
+.site-address .link:hover {
   color: var(--accent-ocean-color);
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
+
+.site-nav .link:focus,
+.site-address .link:focus {
   color: var(--accent-ocean-color);
 }
 .site-nav .link.current {
