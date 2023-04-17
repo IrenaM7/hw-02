@@ -193,3 +193,23 @@ footer {
   color: var(--primary-white-color);
   background-color: var(--accent-ocean-color);
 }
+.project {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.02;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: var(--title-text-color);
+  vertical-align: top;
+}
+.desk {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.28;
+  letter-spacing: 0.02em;
+  text-align: left;
+  vertical-align: top;
+  color: var(--primary-text-color);
+}
