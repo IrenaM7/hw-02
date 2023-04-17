@@ -100,12 +100,18 @@ ul {
 .address .tel:focus {
   color: var(--accent-ocean-color);
 }
-.site-nav .list:hover,
-.site-nav .list:focus {
+.site-nav .link:hover,
+.site-nav .link:focus {
   color: var(--accent-ocean-color);
 }
 .site-nav .link.current {
   color: var(--accent-color);
+}
+.site-nav .link {
+  font-weight: 500;
+  line-height: 1, 5;
+  letter-spacing: 0, 02rem;
+  color: var(--title-text-color);
 }
 /* sektion hero */
 .hero {
