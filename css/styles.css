@@ -134,7 +134,7 @@ body {
 }
 .section-text {
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
 
 /* section What are we doing(что мы делаем) */
@@ -144,6 +144,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: var(--title-text-color);
 }
 /* sektion Our Team(наша команда) */
 .team {
