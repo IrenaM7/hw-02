@@ -38,14 +38,7 @@ body {
   background-color: var(--primary-white-color);
   font-family: "Roboto" sans-serif;
 }
-.button {
-  font-family: "Roboto" sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-}
+
 .button .primary:hover,
 .button .pimary:focus {
   color: var(--accent-ocean-color);
@@ -54,6 +47,12 @@ body {
 .button.primary {
   color: rgba(255, 255, 255, 1);
   background-color: var(--accent-color);
+  font-family: "Roboto" sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 /*  site-nav */
 .list {
@@ -125,11 +124,28 @@ body {
 }
 
 /* sektion feature */
+.feature {
+}
 .section-subject {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.section-text {
+  line-height: 1.5;
+  letter-spacing: 0.02;
 }
 
 /* section What are we doing(что мы делаем) */
+.work {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
 /* sektion Our Team(наша команда) */
 .team {
   background-color: rgba(244, 244, 253, 1);
@@ -137,9 +153,7 @@ body {
 .team-foto {
   background-color: rgba(255, 255, 255, 1);
 }
-h2 {
-  color: var(--title-text-color);
-}
+
 .team-subject {
   color: var(--title-text-color);
 }
