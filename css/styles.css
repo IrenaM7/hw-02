@@ -63,7 +63,6 @@ body {
   background-color: var(--accent-color);
 }
 /*  site-nav */
-
 .site-nav,
 .site-address,
 .section,
@@ -71,6 +70,7 @@ body {
 .team {
   list-style: none;
 }
+
 .link {
   text-decoration: none;
 }
@@ -105,16 +105,17 @@ body {
   font-weight: 500;
   line-height: 1, 5;
   letter-spacing: 0, 02em;
+  font-size: 16px;
 }
 .site-address .link:hover,
 .site-address .link:hover,
 .site-address .link:focus,
 .site-address .link:focus {
-  color: var(--accent-color);
+  color: var(--accent-ocean-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--accent-color);
+  color: var(--accent-ocean-color);
 }
 .site-nav .link.current {
   color: var(--accent-color);
