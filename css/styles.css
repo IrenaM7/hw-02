@@ -84,11 +84,11 @@ body {
 .logo:link {
   text-decoration: none;
 }
-.logo .link {
+.logo .studio {
   color: var(--title-text-color);
 }
-.logo-span:hover,
-.logo-span:focus {
+.logo .studio:hover,
+.logo .studio:focus {
   color: var(--title-text-color);
 }
 /* sektion nav */
@@ -109,11 +109,11 @@ ul {
 .address .tel:hover,
 .address .mail:focus,
 .address .tel:focus {
-  color: var(--accent-ocean-color);
+  color: var(--accent-color);
 }
 .site-nav .item:hover,
 .site-nav .item:focus {
-  color: var(--accent-ocean-color);
+  color: var(--accent-color);
 }
 .site-nav .item.current {
   color: var(--accent-color);
