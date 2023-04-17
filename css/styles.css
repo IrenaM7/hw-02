@@ -89,7 +89,7 @@ body {
   color: var(--accent-color);
   font-weight: 800;
   font-size: 18px;
-  letter-spacing: 0, 03em;
+  letter-spacing: 0.03em;
 }
 
 .logo .studio {
@@ -103,8 +103,8 @@ body {
 .site-nav .link {
   color: var(--title-text-color);
   font-weight: 500;
-  line-height: 1, 5;
-  letter-spacing: 0, 02em;
+  line-height: 1.05;
+  letter-spacing: 0.02em;
   font-size: 16px;
 }
 .site-address .link:hover,
@@ -129,6 +129,10 @@ body {
 
 .hero-title {
   color: rgba(255, 255, 255, 1);
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 /* sektion feature */
