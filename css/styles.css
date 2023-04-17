@@ -80,9 +80,11 @@ body {
 .logo .studio:focus {
   color: var(--title-text-color);
 }
-.site-address .link {
+.site-address {
   font-style: normal;
-  color: var(--title-text-color);
+}
+.site-address .link {
+  color: var(--primary-text-color);
 }
 
 .site-nav .link {
@@ -120,8 +122,7 @@ body {
 }
 
 /* sektion feature */
-.feature {
-}
+
 .section-subject {
   color: var(--title-text-color);
   font-weight: 500;
