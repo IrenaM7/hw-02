@@ -83,9 +83,6 @@ body {
 .site-address {
   font-style: normal;
 }
-.site-address .link {
-  color: var(--primary-text-color);
-}
 
 .site-nav .link {
   font-size: 16px;
