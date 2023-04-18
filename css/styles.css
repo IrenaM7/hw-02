@@ -104,9 +104,6 @@ body {
 .site-address .link:focus {
   color: var(--accent-ocean-color);
 }
-.site-nav .current {
-  color: var(--accent-color);
-}
 
 /* sektion hero */
 .hero {
